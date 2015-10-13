@@ -1,4 +1,7 @@
 #!/bin/bash
+# Need to set this for the tool to run
+export USER='user'
+
 # Call tool with parameters
 python /usr/local/bin/predict_binding.py $@ 
 
