@@ -1,5 +1,6 @@
 #!/bin/bash
 set -e
+args=( "$@" )
 
 finish() {
     # Fix ownership of output files
@@ -9,4 +10,4 @@ finish() {
 trap finish EXIT
 
 # Call tool with parameters
-/usr/local/bin/bwa "$@" 
+/usr/bin/Rscript /home/rankboost/"$args"_rankboost.R "${args[@]:1}"
