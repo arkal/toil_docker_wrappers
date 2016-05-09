@@ -9,4 +9,4 @@ finish() {
 trap finish EXIT
 
 # Call tool with parameters
-/usr/local/bin/MuSEv1.0rc_submission_b391201a "$@" 
+/usr/local/bin/MuSEv1.0rc_submission_b391201 "$@" 
