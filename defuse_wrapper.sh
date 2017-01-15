@@ -9,4 +9,4 @@ finish() {
 trap finish EXIT
 
 # Call tool with parameters
-/home/defuse-0.6.2/scripts/defuse.pl "$@" 
+/opt/defuse-0.6.2/scripts/defuse.pl "$@" 

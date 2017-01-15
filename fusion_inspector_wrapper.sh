@@ -9,4 +9,4 @@ finish() {
 trap finish EXIT
 
 # Call tool with parameters
-/opt/STAR-Fusion-v1.0.0/STAR-Fusion "$@" 
+/opt/FusionInspector-v1.0.1/FusionInspector "$@" 
