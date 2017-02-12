@@ -10,4 +10,4 @@ finish() {
 trap finish EXIT
 
 # Call tool with parameters
-/usr/bin/python /home/rankboost/rankboost.py "${args[@]:1}"
+/usr/bin/python /home/rankboost/rankboost.py "$@"
